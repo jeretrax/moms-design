@@ -32,3 +32,7 @@ See [agency growth expansion](agency-growth-expansion.md) for R-018 through R-02
 ## Backend expansion boundary
 
 [R-026 through R-034](managed-marketing-backend-expansion.md) add future managed-service backends. EWP-001 remains unchanged. Introduce shared orchestration and read adapters before separately gated channel writes. New owner-document acceptance criteria require future bounded EWPs; they are not a requirement to build every service before delivering M1.
+
+## Intelligence expansion
+
+R-035 through R-041 add future intelligence/engagement requirements and consolidate existing capability ownership. [Ownership and rollout](capability-ownership-and-reconciliation.md) define dependencies. M1/EWP-001 remain unchanged; research data coverage, case roles and creator payment support require explicit decisions before release.

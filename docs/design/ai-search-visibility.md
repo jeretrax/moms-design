@@ -19,3 +19,7 @@ AI-02: Failed samples cannot lower visibility as if they were successful negativ
 AI-03: A gap creates or links a work item and later measurement, without bypassing content approval.
 
 See [benefit model](benefit-and-time-model.md) and [provider contracts](integrations-and-provider-interfaces.md).
+
+## Shared research boundary
+
+[Consumer intelligence](consumer-and-market-intelligence.md) correlates this capability's observations with listening and aggregate demand. This document retains sole ownership of prompt sampling and AI citation interpretation. [Measurement](measurement-and-crm-backend.md) supplies compatible snapshots; no parallel GEO warehouse, prompt list or scoring formula is introduced by the suite expansion.

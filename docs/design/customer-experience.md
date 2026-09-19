@@ -38,3 +38,7 @@ Add Strategy, AI Visibility, Content Calendar, Content Review, Authority Work an
 ## Managed-service operations
 
 [Service engagements](service-delivery-backend.md) expose agreed scope, responsible contact, delivery period, outstanding customer input, artifact review and next-cycle decisions. Text/audio feedback attaches to exact revisions. Operators see assignments, capacity, failed jobs and provider access issues; customers see their authorized work and evidence. New channel views use the same Business Goals, Recommended Work, Decisions and Results model rather than separate customer records.
+
+## Consolidated operational navigation
+
+Use Research & Visibility, Strategy, Content Calendar, Engagement Inbox, Creators, Advertising, Results, and Service Work as proposed task-oriented views. Research combines source-filtered listening, demand and AI observations without merging their metric meanings. Reputation is a scoped review/listing/case view; it is not another inbox. Creators and analyst briefings reuse existing collaboration and reports. See [ownership map](capability-ownership-and-reconciliation.md); these are views of shared capabilities, not separate subscriptions or databases.

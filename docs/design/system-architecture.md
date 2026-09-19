@@ -39,3 +39,7 @@ The [agency growth capabilities](agency-growth-expansion.md) extend existing ser
 ## Managed-service backend
 
 The [service delivery backend](service-delivery-backend.md) owns engagement/cycle orchestration, proposed command/event contracts, durable jobs, transactional outbox, execution reconciliation and cost reservations. [Channel backends](managed-marketing-backend-expansion.md) reuse the existing application, policy gateway, evidence and provider boundaries. Components remain logical responsibilities, not a mandatory microservice deployment.
+
+## Consolidated intelligence services
+
+Apply the [ownership map](capability-ownership-and-reconciliation.md). Collection jobs normalize to existing observations; query/classification projections feed research, strategy, reputation and benchmark views. Findings route into canonical cases/work. One content schedule and asset registry serve channel adapters; one inbox serves response work. Measurement computes versioned snapshots; reporting owns rendering/delivery. Use existing outbox, workers, policy gateway and audit facilities rather than parallel per-feature infrastructure.

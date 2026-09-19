@@ -25,3 +25,7 @@ Future commercial configuration may meter managed properties, strategy jobs, vis
 ## Service catalog and cost ownership
 
 [Delivery backend](service-delivery-backend.md) introduces versioned offerings and recurring delivery cycles. Configure quantities/cadence, human/vendor deliverables, acceptance and change-order handling after D-004/D-019 resolution. Keep client fees, committed media budget, provider/API consumption and internal labor costs distinct; internal margin data is not automatically customer-visible. No Search Berg package pricing or service guarantee is imported.
+
+## Shared capability entitlements
+
+Price/limit capability usage independently of competitor product names. Listening volume/history, query/backfill cost, classifier jobs, inbox seats and creator workflows are possible entitlement dimensions, not approved plan limits. A shared evidence item or calendar record must not be counted repeatedly merely because several views display it. Provider ingestion/query costs can still be distinct metered events. D-004 remains the commercial decision gate.

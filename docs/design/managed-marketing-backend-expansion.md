@@ -37,3 +37,7 @@ MB-01: One accepted engagement can coordinate research, creative and channel wor
 MB-02: Cycle reports distinguish proposed, submitted, verified and measured results, including human delivery evidence.
 
 MB-03: A provider outage, expired credential or revoked grant produces visible blocked/recovery work without silent data fabrication or external replay.
+
+## Reconciled suite ownership
+
+[Capability ownership](capability-ownership-and-reconciliation.md) refines R-028/R-030/R-034: shared inbox and cases, specialized review/listing policy, dedicated creator lifecycle and common metric snapshots. New intelligence functions reuse the same backend records and service delivery rather than duplicate channel applications.

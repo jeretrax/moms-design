@@ -78,7 +78,7 @@ Proposed logical extensions for [R-026 through R-034](managed-marketing-backend-
 | SocialPublication / InboundConversation | Content execution and external thread references scoped to customer/account |
 | ContactReference / ConsentEvent / Suppression / SegmentRevision | Minimal external identity and purpose/channel-specific sending controls |
 | EmailCampaign / RecipientSend | Approved content/audience snapshot and per-recipient delivery history |
-| InfluencerEngagement | Verified creator, contract scope, asset rights and authorized compensation |
+| InfluencerEngagement | Existing campaign relationship; [creator owner](creator-relationship-management.md) defines verified profile, contract, rights and compensation |
 | BusinessLocation / ListingBinding / ReviewObservation | Customer facts, provider binding and dated source evidence |
 | WebsiteProject / ReleaseRecord / HostingRelationship | Scoped engineering work, deployment verification and provider responsibility |
 | ProductReference / ListingRevision / FeedSubmission | Externally mastered catalog bindings and approved per-item changes |
@@ -87,3 +87,19 @@ Proposed logical extensions for [R-026 through R-034](managed-marketing-backend-
 | CRMConnection / ExternalOutcomeReference | External lead/opportunity source ownership without a second CRM |
 
 All references enforce customer compatibility. Shared agency access must be explicit; external IDs are unique within provider/account scope, not globally. Physical schemas and migration choices remain implementation proposals.
+
+## Consolidated intelligence and engagement records
+
+The [ownership map](capability-ownership-and-reconciliation.md) defines one authority per capability. Additional logical records are:
+
+| Record | Responsibility and reuse |
+| --- | --- |
+| ResearchQueryRevision / SourceCapability | Versioned collection scope, rights, available history and provider coverage |
+| ClassificationRevision / ResearchCohort | Derived labels and analytical filters over existing Observation references; not mailing segments |
+| SearchDemandSeries | Source-defined observed/estimated demand; separate from AI VisibilityObservation |
+| InsightFinding / AlertRuleRevision / AlertOccurrence | Evidence-linked interpretation, detection rules and deduplicated issue lifecycle |
+| EngagementCase | Groups existing InboundConversation/ReviewObservation/finding references; assignments remain WorkAssignments |
+| CreatorProfile / RosterMembership | Verified provider identities and scoped relationship views; campaigns remain InfluencerEngagements |
+| MetricDefinition / CohortRevision / BenchmarkSnapshot | Shared measurement definitions, comparison scope and immutable reporting snapshot |
+
+Observation is the shared evidence identity. ReviewObservation and VisibilityObservation are typed evidence with specialized fields, not independent duplicate raw stores. Retention or source-rights revocation may redact underlying content while retaining permitted lineage/tombstones; historical reports must disclose unavailable evidence rather than preserving content unlawfully. No automatic cross-channel person merging or cross-customer access follows from these relationships.

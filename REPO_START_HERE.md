@@ -28,3 +28,5 @@ The [master index](docs/design/master-design-index.md) covers every design docum
 See [agency growth capabilities](docs/design/agency-growth-expansion.md) for the 2026-09-19 Adaptify-informed expansion and its delivery boundaries.
 
 See the [managed marketing backend expansion](docs/design/managed-marketing-backend-expansion.md) for service delivery, channel operations and the runtime needed to support the broader service catalog.
+
+Read [capability ownership and reconciliation](docs/design/capability-ownership-and-reconciliation.md) before implementing expanded features. It consolidates shared services and identifies the specialized workflows to retain.

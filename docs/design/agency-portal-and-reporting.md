@@ -25,3 +25,7 @@ See [customer experience](customer-experience.md) and [report contract](report-c
 ## Engagement-backed reports
 
 The [delivery backend](service-delivery-backend.md) supplies cycle activity, verified deliverables, ownership and pending decisions to the portal. Work performed by specialists requires evidence just as automated work does. Reports keep completed activity separate from measured performance, with internal costing restricted by access policy.
+
+## Intelligence and benchmark reporting
+
+Analyst briefings and benchmark reports are types of the existing Report, not separate delivery services. They reference findings, cohort/query revisions and metric snapshots, state source coverage and distinguish machine draft from analyst-reviewed content. Support reusable dashboard/report templates and scoped PDF/tabular/presentation export through the same access and source-rights checks. Intelligence alerts use the existing delivery schedule/ledger; an alert subscription does not grant visibility to restricted supporting records.

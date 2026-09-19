@@ -71,3 +71,16 @@ Jeremiah requested the backend required to support services comparable to Search
 | D-023 | Web/hosting responsibility, deployment authorization, catalog ownership, media rights and creative acceptance | Before delivery integrations and production release |
 | D-024 | Backend technology/topology, queues/storage, operating budgets, backup/restore and recovery objectives | Before production backend deployment; extends D-011 |
 | D-025 | Tracking consent, CRM source ownership, lead/call scope, event identity and attribution rules | Before outcome ingestion and effectiveness claims; extends D-009 |
+
+## Brandwatch-informed reconciliation: 2026-09-19
+
+Jeremiah requested new suite capabilities and reworking existing overlap. R-035 through R-041 add shared intelligence, case/creator depth and benchmarking. [Canonical ownership](capability-ownership-and-reconciliation.md) replaces overlapping owner descriptions while retaining their useful workflows and stable requirement IDs. Source-backed schemas/contracts remain proposed engineering details. EWP-001 remains unchanged.
+
+| ID | Open decision | Gate |
+| --- | --- | --- |
+| D-026 | Listening/demand data providers, licensed history/redistribution, query grammar, taxonomy/cohort privacy and source-deletion propagation | Before intelligence collection/production |
+| D-027 | Inbox/case role matrix, response clocks, escalation, external case ownership and supported channels | Before shared engagement execution; extends D-021 |
+| D-028 | Alert thresholds/cooldowns, analyst review policy, metric normalization and benchmark cohorts | Before issue alerts and comparative claims; extends D-009 |
+| D-029 | Creator discovery sources, identity evidence, rights policy, collaboration scope and payout-provider eligibility | Before creator production/payments; extends D-021 |
+
+Resolved ownership: shared observations, content calendar, engagement inbox, existing work engine, measurement definitions and report delivery. These are architectural responsibility decisions, not a selected technology stack or a live migration.

@@ -25,3 +25,7 @@ Apply isolation and retention to transcripts, expert profiles, unpublished conte
 ## Service operations security
 
 [Backend contracts](service-delivery-backend.md) extend isolation to events, cycle jobs, staff/vendor assignment, artifacts, costs and reporting projections. Restrict sensitive review cases, audience identifiers, messages, audio feedback and conversion data. Use credential references, authenticated callbacks, purpose-specific access and retention rules. Worker uploads/media processing require scanning and isolation. Backup/restore, recovery targets and deployment topology remain D-024; the design does not select a production platform.
+
+## Intelligence source and identity controls
+
+Shared observation storage preserves source/customer/purpose access and licensing restrictions in every index, model retrieval, export and cache. Separate private message access from public listening views. Derived sentiment/cohorts cannot automatically infer sensitive traits or resolve cross-network identities. Retention/deletion applies to imported first-party datasets and restricted creator contracts as well as raw evidence. D-026/D-029 define production policy; [ownership](capability-ownership-and-reconciliation.md) never overrides those boundaries.

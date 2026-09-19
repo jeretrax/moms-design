@@ -6,9 +6,13 @@ Extend one-time keyword discovery into a maintained strategy joining keyword can
 
 ## MOMS integration and controls
 
-Use existing Search Intent/Keyword Candidate records. A cluster groups references; it does not create duplicate keyword facts. Link recommended changes to Marketing Work Items. Calendar entries reference planned content and approved capacity; ordering does not itself approve publication. Preserve provenance and unknown values when providers lack volume or difficulty data.
+Use existing Search Intent/Keyword Candidate records. A cluster groups references; it does not create duplicate keyword facts. Link recommended changes to Marketing Work Items. Strategy displays a projection of the Calendar Entries owned by [content production](content-production-and-publishing.md), referencing planned content and approved capacity. It does not own a second scheduling store; ordering does not itself approve publication. Preserve provenance and unknown values when providers lack volume or difficulty data.
 
 Strategy revision, not silent replacement, preserves historical reports and forecasts. Detect competing target pages and duplicate work before creating additional content. Undo restores internal planning state only; any external reversal needs a separately authorized action. Formula weights and numerical confidence scales remain unresolved.
+
+## Demand research integration
+
+[Consumer intelligence](consumer-and-market-intelligence.md) owns licensed search-demand series and cross-source research. Strategy consumes those observations to prioritize work; [AI visibility](ai-search-visibility.md) continues to own prompt sampling. Candidate terms, estimated demand and observed queries remain distinguishable.
 
 ## Acceptance
 

@@ -34,3 +34,7 @@ CMS and AI-platform coverage require current capability verification. Treat paym
 ## Managed-service adapter additions
 
 [Backend expansion](managed-marketing-backend-expansion.md) adds social publishing/inbox, email campaign delivery, local listings/reviews, marketplace feeds, media processing, hosting/deployment and CRM/outcome adapters. Specify current supported actions, authentication scope, webhook verification, quota, read freshness, pagination/checkpoints, retry/idempotency and customer mapping before enablement. Read/recommend is separate from write support for every provider. Human-assisted completion must attach evidence when an API is unavailable; it may not masquerade as verified API execution.
+
+## Listening and intelligence coverage
+
+Add declared capabilities for licensed social/news/web history, aggregate demand, creator discovery and competitor metrics. Verify rights, quotas, source-specific deletion, export/redistribution, history and freshness before collection. Brandwatch is a reference offering, not a selected data supplier. First-party uploads retain access and purpose restrictions; source deletion/expiry invalidates caches and derived retrieval as required. Unsupported Boolean/image/history features are reported unavailable, not simulated. See [intelligence contracts](consumer-and-market-intelligence.md).

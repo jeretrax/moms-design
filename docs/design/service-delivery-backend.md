@@ -60,3 +60,7 @@ SD-04: Worker recovery and webhook replay do not duplicate external delivery; am
 SD-05: Cross-customer artifact, event, job and report access fails, including guessed identifiers.
 
 See [channel design](multichannel-campaign-backend.md), [roadmap](managed-marketing-backend-expansion.md) and [controls](autonomy-approvals-and-spend-controls.md).
+
+## Research and case routing
+
+[Findings/alerts](consumer-and-market-intelligence.md) and [engagement cases](engagement-inbox-and-cases.md) reuse WorkAssignments, deliverable review and verified execution. A case groups context; it does not create a competing task engine. Analyst reviews and creator deliverables are typed work on existing engagement cycles. Scheduled briefings use report delivery; alert notifications do not acquire a second send queue.

@@ -23,3 +23,17 @@ ME-02: A report identifies metric definition, attribution version, data freshnes
 ME-03: CRM sync cannot grant marketing consent or overwrite externally mastered data without configured authority.
 
 See [service backend](service-delivery-backend.md), [provider contracts](integrations-and-provider-interfaces.md) and D-009/D-025.
+
+## Competitive benchmarking (R-041)
+
+Reference: [Brandwatch Benchmark](https://www.brandwatch.com/products/benchmark/). Add selected competitor/cohort comparisons, content performance, audience trends, share-of-voice and response performance where data is accessible. BenchmarkSnapshot is a use of the shared metric snapshot model, not a separate analytics authority.
+
+MetricDefinition specifies metric name, unit, source, public/private availability, denominator, timezone/window and normalization rule. CohortRevision records included brands/accounts and selection criteria. A comparison requires compatible definitions and periods; absent private competitor metrics are unavailable, not inferred. Share of voice names the measured query/source universe and deduplication method, not a percentage of the entire internet. Paid versus organic and estimated versus observed metrics remain distinguishable.
+
+Public observations of competitors do not reveal their actual conversion rate or revenue. Sentiment comparisons carry classifier/version uncertainty. Response-time comparisons require equivalent observable start/end events and clock definitions. Reports and exports use [agency reporting](agency-portal-and-reporting.md), with snapshot lineage and source rights intact.
+
+BM-01: Incompatible metric definitions or unavailable competitor data cannot produce a misleading direct comparison.
+
+BM-02: Cohort/window/denominator changes create a new snapshot and preserve the earlier report's meaning.
+
+BM-03: Listening share-of-voice and AI mention coverage remain separate named metrics even when shown together.

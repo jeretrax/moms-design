@@ -10,9 +10,9 @@ Profile changes create work items, field-level proposed diffs and scoped authori
 
 ## Reputation operations
 
-ReviewObservation records provider, location or verified subject, source ID/URL, rating/text where permitted and capture time. Separate machine-interpreted sentiment from source facts. Response drafts attach to exact reviews and use customer authorization before publishing. Requests for reviews require a valid audience/sender policy and must not fabricate reviews or selectively solicit only positive feedback. Removal disputes are evidence-backed human/provider workflows; MOMS cannot promise to delete third-party criticism.
+ReviewObservation records provider, location or verified subject, source ID/URL, rating/text where permitted and capture time. Separate machine-interpreted sentiment from source facts. Review response drafts and delivery use the [shared engagement inbox](engagement-inbox-and-cases.md), referencing the exact ReviewObservation and reputation-specific authorization. Reputation does not own a separate response queue. Requests for reviews require a valid audience/sender policy and must not fabricate reviews or selectively solicit only positive feedback. Removal disputes are reputation-type EngagementCases with evidence-backed human/provider workflows; MOMS cannot promise to delete third-party criticism.
 
-Business and personal reputation subjects require explicit scope and access policy; sensitive case details are restricted. Changes in observed review availability are new observations, not erasure of prior work. Collection rights, retention, request practices and response escalation remain D-022.
+Broad brand/media listening and alerts belong to [consumer intelligence](consumer-and-market-intelligence.md); this capability owns location facts, review policy and provider disputes. Business and personal reputation subjects require explicit scope and access policy; sensitive case details are restricted. Changes in observed review availability are new observations, not erasure of prior work. Collection rights, retention, request practices and response escalation remain D-022.
 
 ## Acceptance
 

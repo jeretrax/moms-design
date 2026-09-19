@@ -6,9 +6,9 @@ Status: user-requested capability expansion; R-028/R-029. References: [Search Be
 
 Reuse Content Item/Revision and Calendar Entry. A SocialPublication records target account, platform-specific payload, scheduled timezone/time, approval digest and external post ID. Platform constraints are validated before dispatch. A common post may have several channel variants, each with its own execution and verification; partial success is visible.
 
-InboundConversation references authorized provider threads/messages, assignment, reply proposals and delivery history. Deduplicate ingestion by provider account/event ID. The inbox supports ownership, escalation and auditable handoff. Ordinary comment replies, direct messages, moderation/removal and paid boosting are separate action classes. Never infer consent to private outreach from public engagement. Replies require an identified account, recipient/thread and current authority. Human review handles sensitive or uncertain requests according to configured policy.
+The [Engagement Inbox and Cases](engagement-inbox-and-cases.md) document now exclusively owns inbound conversation routing, reply workflows, team ownership and customer-care cases. This backend owns platform transport, supported message/moderation operations, provider event ingestion and send/readback results. It submits observations to the shared evidence store and routes authorized interactions into the canonical inbox; it does not create a separate community inbox.
 
-InfluencerEngagement references a verified creator identity, scope, deliverables, publication evidence, disclosed relationship/usage rights, approved compensation and review. Contracting and payment use commercial/vendor controls, not ad account authority. Exact rights and approval rules remain D-021.
+[Creator Relationship Management](creator-relationship-management.md) owns discovery, roster and InfluencerEngagement lifecycle. Channel posting and boosting consume its approved content/rights references and existing campaign controls.
 
 ## Email campaigns
 

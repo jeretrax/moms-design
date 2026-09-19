@@ -38,6 +38,10 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 | [Web, Commerce and Creative Delivery Backend](web-commerce-and-creative-backend.md) | Managed-service backend requirements |
 | [Measurement, Conversion and CRM Backend](measurement-and-crm-backend.md) | Managed-service backend requirements |
 | [Managed Marketing Backend Expansion](managed-marketing-backend-expansion.md) | Managed-service backend requirements |
+| [Capability Ownership and Reconciliation](capability-ownership-and-reconciliation.md) | Consolidated suite capability owner |
+| [Consumer and Market Intelligence](consumer-and-market-intelligence.md) | Consolidated suite capability owner |
+| [Engagement Inbox and Cases](engagement-inbox-and-cases.md) | Consolidated suite capability owner |
+| [Creator Relationship Management](creator-relationship-management.md) | Consolidated suite capability owner |
 
 ## Engineering and provenance
 
@@ -49,3 +53,5 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 - [Adaptify capability review](../reference/adaptify-capability-review.md)
 
 - [Search Berg service review](../reference/searchberg-capability-review.md)
+
+- [Brandwatch suite review](../reference/brandwatch-capability-review.md)

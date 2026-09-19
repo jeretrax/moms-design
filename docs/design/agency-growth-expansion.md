@@ -32,3 +32,7 @@ EX-03: No client can retrieve another client's content, credentials, prompts, re
 ## Further managed-service backend coverage
 
 The [Search Berg-informed backend expansion](managed-marketing-backend-expansion.md) adds R-026 through R-034 on top of these capabilities. Existing owner documents continue to own strategy, AI visibility, content, outreach, reporting and proposals.
+
+## Consolidated suite ownership
+
+The [ownership map](capability-ownership-and-reconciliation.md) now governs overlap with social, reputation and intelligence capabilities. Earlier requirements remain valid, but strategy/calendar, creator/inbox and report execution responsibilities follow the canonical owners in that map.

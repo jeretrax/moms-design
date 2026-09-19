@@ -39,3 +39,7 @@ Scope grants separately for content drafting, CMS create/update/publish, outreac
 ## Managed-service action boundaries
 
 Paid-channel allocation, social posting/replies/moderation/boosting, promotional email, review requests/responses, listing updates, marketplace promotions, deployment/DNS changes and vendor compensation are separate action types. [Backend owners](managed-marketing-backend-expansion.md) specify required scope and evidence. Validate consent/suppression, current account permissions, artifact revision and available funding at execution, not only scheduling. Budget reservation protects MOMS concurrency; provider billing limits still require D-010 resolution. Service purchase alone grants none of these actions.
+
+## Intelligence-to-action boundary
+
+Listening, classifier output, sentiment changes or a crisis label can suggest triage but cannot authorize public replies, moderation, campaign pause, spending or creator payments. Existing action grants remain necessary. Collection/query budgets apply to backfills and repeated samples. Shared evidence/inbox/calendar architecture does not broaden actor access. See [consolidated ownership](capability-ownership-and-reconciliation.md).

@@ -49,7 +49,7 @@ Source: explicit user request and [Search Berg review](../reference/searchberg-c
 | --- | --- | --- | --- |
 | R-026 | Engagement/cycle execution and durable backend | [Delivery](service-delivery-backend.md) | SD-01 through SD-05 |
 | R-027 | Multichannel paid campaign operations | [Campaigns](multichannel-campaign-backend.md) | MC-01 through MC-04 |
-| R-028 | Social, community and influencer operations | [Social/email](social-email-and-community-backend.md) | SE-01, SE-03, SE-04 |
+| R-028 | Social transport with canonical inbox/creator owners | [Transport](social-email-and-community-backend.md), [Inbox](engagement-inbox-and-cases.md), [Creators](creator-relationship-management.md) | SE-01, SE-03, SE-04; EN/CR criteria |
 | R-029 | Audience, consent and email campaign execution | [Social/email](social-email-and-community-backend.md) | SE-01, SE-02 |
 | R-030 | Local listings and reputation operations | [Local/reputation](local-presence-and-reputation-backend.md) | LR-01 through LR-03 |
 | R-031 | Web/deployment/maintenance engagements | [Web/commerce/creative](web-commerce-and-creative-backend.md) | WC-01 |
@@ -58,3 +58,19 @@ Source: explicit user request and [Search Berg review](../reference/searchberg-c
 | R-034 | Conversion definitions, CRM outcomes and attribution | [Measurement](measurement-and-crm-backend.md) | ME-01 through ME-03 |
 
 Cross-capability acceptance MB-01 through MB-03 is in the [backend expansion](managed-marketing-backend-expansion.md). A future implementation handback must map these criteria to evidence and resolved release gates.
+
+## Consolidated suite requirements (2026-09-19)
+
+Source: user request, [review](../reference/brandwatch-capability-review.md), and original MOMS architecture. These requirements extend retained capabilities; no implementation is claimed.
+
+| ID | Requirement | Owner | Future verification |
+| --- | --- | --- | --- |
+| R-035 | Shared consumer listening, classification and cohorts | [Intelligence](consumer-and-market-intelligence.md) | CI-01 through CI-04 |
+| R-036 | Search-demand research connected to strategy/AI evidence | [Intelligence](consumer-and-market-intelligence.md) | CI-02, CI-04; existing AI/KS criteria |
+| R-037 | Issue alerts and reviewed analyst briefings | [Intelligence](consumer-and-market-intelligence.md) | CI-04, CI-05; AR delivery criteria |
+| R-038 | Shared engagement inbox and cases | [Inbox](engagement-inbox-and-cases.md) | EN-01 through EN-04 |
+| R-039 | Creator discovery and relationship lifecycle | [Creators](creator-relationship-management.md) | CR-01 through CR-03 |
+| R-040 | Canonical ownership and overlap reconciliation | [Ownership](capability-ownership-and-reconciliation.md) | CO-01 through CO-03 |
+| R-041 | Compatible competitive benchmarking | [Measurement](measurement-and-crm-backend.md) | BM-01 through BM-03 |
+
+R-018/R-020/R-021 retain shared calendar and asset behavior; R-030 retains local/reputation-specific policy while using R-038 for replies/cases. R-023/R-024 remain the only report delivery owners; R-034 remains measurement authority. Future EWPs must reference these mappings rather than create parallel implementations.

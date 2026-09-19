@@ -2,7 +2,7 @@
 
 Status: user-requested capability expansion, 2026-09-19. Requirements R-020/R-021. Reference: [Adaptify content](https://adaptify.ai/features/content).
 
-Add a production workflow for research, briefs, outlines, drafts, revision and editorial review. Apply customer brand voice, approved facts and linking preferences. Support uploaded/licensed/generated visuals with provenance and alt text, metadata and structured-data proposals. Use a calendar for approved production and publishing. Quality review covers factual support, readability, intent alignment, links and customer instructions; failed work returns for bounded revision or human review.
+Add a production workflow for research, briefs, outlines, drafts, revision and editorial review. Apply customer brand voice, approved facts and linking preferences. Support uploaded/licensed/generated visuals with provenance and alt text, metadata and structured-data proposals. Own the single canonical Calendar Entry schedule for content production and publishing across CMS, social and email. Strategy and channel views project those entries rather than keeping independent schedules. Quality review covers factual support, readability, intent alignment, links and customer instructions; failed work returns for bounded revision or human review.
 
 ## MOMS publication contract
 
@@ -27,3 +27,9 @@ See [controls](autonomy-approvals-and-spend-controls.md) and D-015 in [decisions
 ## Service delivery and media extensions
 
 The [web/commerce/creative backend](web-commerce-and-creative-backend.md) adds specialist production, store/listing artifacts and controlled website releases. Reuse Content/Revision and approval history for media/channel variants. Source rights and rejected-review state propagate to downstream publication targets.
+
+## Shared planning and asset views
+
+Extend planning with channel previews, labels, reviewer assignments and scoped external feedback. The creative backend owns source/derived assets and rights; this workflow references approved revisions as its shared asset library. A provider-specific publication record is an execution projection, not another calendar authority. Email recipient dispatch and provider scheduling remain transport details linked to the canonical entry.
+
+Optional tracked/vanity links and link-in-bio pages are website/content artifacts with authorized domains and destination revisions. They use the existing deployment, attribution and approval controls. Mobile access is a responsive view of the same permissions; native mobile applications remain an implementation decision. Suggested publish times are hypotheses with evidence, not permission to reschedule approved work.

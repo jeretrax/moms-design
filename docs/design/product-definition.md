@@ -37,3 +37,7 @@ The user-requested [agency growth expansion](agency-growth-expansion.md) adds ma
 ## Managed delivery expansion
 
 The requested [managed marketing backend](managed-marketing-backend-expansion.md) adds orchestration for human and automated service work plus channel operations beyond SEO. Website/application/CRM service work uses scoped engineering engagements and external integrations. It does not promise arbitrary app generation or replacement of external CRM, commerce or hosting systems.
+
+## Consumer intelligence and consolidated delivery
+
+[Capability reconciliation](capability-ownership-and-reconciliation.md) adds consumer/demand intelligence, issue triage, competitive benchmarks and deeper creator operations. Shared evidence, calendar, inbox, metric definitions and reporting prevent duplicating the SEO, social and reputation functions already specified. New specialized owner documents extend the service; vendor products do not become separate MOMS products by default.
