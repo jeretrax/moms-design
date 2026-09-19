@@ -21,3 +21,7 @@ Billing/checkout implementation is outside EWP-001. See D-004 in [design notes](
 ## Expansion entitlement dimensions
 
 Future commercial configuration may meter managed properties, strategy jobs, visibility samples, content production, CMS targets, outreach work and reporting deliveries. Record usage and costs against the applicable entitlement; limits and overage prices remain D-004. [Proposal acceptance](proposals-and-onboarding.md) can activate configured service entitlements only under approved commercial rules. Billing integration is now a later capability, still outside EWP-001.
+
+## Service catalog and cost ownership
+
+[Delivery backend](service-delivery-backend.md) introduces versioned offerings and recurring delivery cycles. Configure quantities/cadence, human/vendor deliverables, acceptance and change-order handling after D-004/D-019 resolution. Keep client fees, committed media budget, provider/API consumption and internal labor costs distinct; internal margin data is not automatically customer-visible. No Search Berg package pricing or service guarantee is imported.

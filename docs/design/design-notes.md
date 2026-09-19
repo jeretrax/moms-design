@@ -57,3 +57,17 @@ No prices or feature promises from unrelated prototypes are part of this baselin
 For each resolution record decision ID, date, owner/approver, choice, rationale, affected requirement/document/EWP, and any migration or acceptance impact. Retain the original question and decision history.
 
 See [governance](design-to-implementation-governance.md) and [first EWP](../engineering/EWP-001-public-domain-assessment.md).
+
+## Managed-service backend decision: 2026-09-19
+
+Jeremiah requested the backend required to support services comparable to Search Berg. [R-026 through R-034](managed-marketing-backend-expansion.md) add capability requirements and explicitly proposed architecture/contracts. Public service descriptions do not reveal the competitor's internal implementation. M1/EWP-001 remain unchanged; this authorizes design, not sending campaigns, buying services or deploying infrastructure.
+
+| ID | Open decision | Gate |
+| --- | --- | --- |
+| D-019 | Service catalog/version rules, cycle status transitions, ownership, capacity, acceptance and change orders | Before managed-service production |
+| D-020 | Paid/marketplace provider rollout, supported account types, permissions and normalized metrics | Before each channel integration/write release |
+| D-021 | Social/inbox/moderation roles, email consent/retention/suppression policy, influencer rights and compensation | Before social/email/creator execution |
+| D-022 | Location verification, review request/response policy, reputation privacy and provider dispute handling | Before local/reputation production |
+| D-023 | Web/hosting responsibility, deployment authorization, catalog ownership, media rights and creative acceptance | Before delivery integrations and production release |
+| D-024 | Backend technology/topology, queues/storage, operating budgets, backup/restore and recovery objectives | Before production backend deployment; extends D-011 |
+| D-025 | Tracking consent, CRM source ownership, lead/call scope, event identity and attribution rules | Before outcome ingestion and effectiveness claims; extends D-009 |

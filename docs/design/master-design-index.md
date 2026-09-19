@@ -31,6 +31,13 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 | [Authority and Outreach](authority-and-outreach.md) | Expanded marketing service design |
 | [Agency Portal and Reporting](agency-portal-and-reporting.md) | Expanded marketing service design |
 | [Proposals and Onboarding](proposals-and-onboarding.md) | Expanded marketing service design |
+| [Service Delivery Backend](service-delivery-backend.md) | Managed-service backend requirements |
+| [Multichannel Campaign Backend](multichannel-campaign-backend.md) | Managed-service backend requirements |
+| [Social, Email and Community Backend](social-email-and-community-backend.md) | Managed-service backend requirements |
+| [Local Presence and Reputation Backend](local-presence-and-reputation-backend.md) | Managed-service backend requirements |
+| [Web, Commerce and Creative Delivery Backend](web-commerce-and-creative-backend.md) | Managed-service backend requirements |
+| [Measurement, Conversion and CRM Backend](measurement-and-crm-backend.md) | Managed-service backend requirements |
+| [Managed Marketing Backend Expansion](managed-marketing-backend-expansion.md) | Managed-service backend requirements |
 
 ## Engineering and provenance
 
@@ -40,3 +47,5 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 - [Repository publication instructions](../../REPOSITORY_IMPORT.md)
 
 - [Adaptify capability review](../reference/adaptify-capability-review.md)
+
+- [Search Berg service review](../reference/searchberg-capability-review.md)

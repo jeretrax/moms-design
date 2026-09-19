@@ -64,3 +64,26 @@ These logical records support the [expansion](agency-growth-expansion.md); physi
 | Onboarding Engagement / Payment Reference | Conversion and commercial status; reuse Customer, Property and Entitlement |
 
 Prospect conversion updates lifecycle context without copying assessments into a second database. New records inherit customer isolation and history requirements. Cross-customer learning may not reuse private facts or artifacts without explicit permission.
+
+## Managed-service backend records
+
+Proposed logical extensions for [R-026 through R-034](managed-marketing-backend-expansion.md):
+
+| Record | Canonical relationship |
+| --- | --- |
+| OfferingVersion / ServiceEngagement / DeliveryCycle | Versioned commercial scope and periods linked to Customer/Proposal/Entitlement |
+| WorkAssignment / DeliverableRevision / FeedbackRevision | References Marketing Work Item and artifact revisions; no duplicate task authority |
+| CostReservation / CostEntry / UsageEntry | Links policy, work/job, currency/period and verified cost source |
+| CampaignPlan / ChannelConfiguration | Links goal, external account, creatives, approved allocation and measurement |
+| SocialPublication / InboundConversation | Content execution and external thread references scoped to customer/account |
+| ContactReference / ConsentEvent / Suppression / SegmentRevision | Minimal external identity and purpose/channel-specific sending controls |
+| EmailCampaign / RecipientSend | Approved content/audience snapshot and per-recipient delivery history |
+| InfluencerEngagement | Verified creator, contract scope, asset rights and authorized compensation |
+| BusinessLocation / ListingBinding / ReviewObservation | Customer facts, provider binding and dated source evidence |
+| WebsiteProject / ReleaseRecord / HostingRelationship | Scoped engineering work, deployment verification and provider responsibility |
+| ProductReference / ListingRevision / FeedSubmission | Externally mastered catalog bindings and approved per-item changes |
+| CreativeBrief / MediaAssetRevision | Source/derived media lineage, rights, reviews and usage |
+| ConversionDefinition / TrackingPlan / MeasurementEvent / AttributionSnapshot | Versioned definitions and events attached to existing measurement/report model |
+| CRMConnection / ExternalOutcomeReference | External lead/opportunity source ownership without a second CRM |
+
+All references enforce customer compatibility. Shared agency access must be explicit; external IDs are unique within provider/account scope, not globally. Physical schemas and migration choices remain implementation proposals.

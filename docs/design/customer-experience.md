@@ -34,3 +34,7 @@ See [report contract](report-contract.md), [work items](marketing-work-item.md),
 ## Expanded agency and customer journeys
 
 Add Strategy, AI Visibility, Content Calendar, Content Review, Authority Work and Proposals as applicable capabilities. Agency operators receive a customer portfolio with attention and delivery status; customer users see only their permitted business context. The [portal design](agency-portal-and-reporting.md) owns branding and delivery, while [proposals](proposals-and-onboarding.md) owns prospect-to-onboarding behavior. Exact navigation layouts remain proposals. Customers can start with business goals; advanced prompt/keyword controls are optional.
+
+## Managed-service operations
+
+[Service engagements](service-delivery-backend.md) expose agreed scope, responsible contact, delivery period, outstanding customer input, artifact review and next-cycle decisions. Text/audio feedback attaches to exact revisions. Operators see assignments, capacity, failed jobs and provider access issues; customers see their authorized work and evidence. New channel views use the same Business Goals, Recommended Work, Decisions and Results model rather than separate customer records.

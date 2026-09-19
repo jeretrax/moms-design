@@ -33,3 +33,7 @@ See [scope](mvp-scope.md), [customer experience](customer-experience.md), and [d
 ## Expanded service capabilities (2026-09-19)
 
 The user-requested [agency growth expansion](agency-growth-expansion.md) adds maintained strategy, AI visibility research, content production, CMS delivery, authority outreach, agency operations, branded reports and proposal/onboarding capabilities. Their owner documents define requirements; phased delivery and action authorization remain explicit. This expands the future product boundary without changing M1.
+
+## Managed delivery expansion
+
+The requested [managed marketing backend](managed-marketing-backend-expansion.md) adds orchestration for human and automated service work plus channel operations beyond SEO. Website/application/CRM service work uses scoped engineering engagements and external integrations. It does not promise arbitrary app generation or replacement of external CRM, commerce or hosting systems.

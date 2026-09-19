@@ -26,3 +26,5 @@ The [master index](docs/design/master-design-index.md) covers every design docum
 ## Expanded marketing service design
 
 See [agency growth capabilities](docs/design/agency-growth-expansion.md) for the 2026-09-19 Adaptify-informed expansion and its delivery boundaries.
+
+See the [managed marketing backend expansion](docs/design/managed-marketing-backend-expansion.md) for service delivery, channel operations and the runtime needed to support the broader service catalog.

@@ -35,3 +35,7 @@ No agent may redefine policy or grant itself permission. See [Ads](google-ads-ma
 ## Expanded action classes
 
 Scope grants separately for content drafting, CMS create/update/publish, outreach send, report delivery, proposal issuance and commercial activation. Apply customer/account/version-bound approvals and recheck before queued execution. Third-party content/placement purchases have separate spending policy from Google Ads budgets. Buying a subscription or accepting a proposal does not grant external write authority. See [expansion owners](agency-growth-expansion.md) for failure and verification requirements.
+
+## Managed-service action boundaries
+
+Paid-channel allocation, social posting/replies/moderation/boosting, promotional email, review requests/responses, listing updates, marketplace promotions, deployment/DNS changes and vendor compensation are separate action types. [Backend owners](managed-marketing-backend-expansion.md) specify required scope and evidence. Validate consent/suppression, current account permissions, artifact revision and available funding at execution, not only scheduling. Budget reservation protects MOMS concurrency; provider billing limits still require D-010 resolution. Service purchase alone grants none of these actions.

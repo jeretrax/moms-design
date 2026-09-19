@@ -21,3 +21,7 @@ AR-02: Branded PDF, portal and summary reconcile to the same report revision and
 AR-03: Revoked access prevents new deliveries and portal retrieval; every approval identifies the authorized actor and content version.
 
 See [customer experience](customer-experience.md) and [report contract](report-contract.md).
+
+## Engagement-backed reports
+
+The [delivery backend](service-delivery-backend.md) supplies cycle activity, verified deliverables, ownership and pending decisions to the portal. Work performed by specialists requires evidence just as automated work does. Reports keep completed activity separate from measured performance, with internal costing restricted by access policy.

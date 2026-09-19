@@ -35,3 +35,7 @@ See [provider contracts](integrations-and-provider-interfaces.md), [agent model]
 ## Expansion integration
 
 The [agency growth capabilities](agency-growth-expansion.md) extend existing services: strategy/visibility use research and measurement; content/proposals produce versioned artifacts; portfolio/reporting apply scoped views; CMS/outreach/delivery/commerce use declared adapters and the policy gateway. Reuse persistence, audit and job controls. Add event reconciliation for external callbacks and ambiguous execution outcomes; do not create parallel customer or approval stores.
+
+## Managed-service backend
+
+The [service delivery backend](service-delivery-backend.md) owns engagement/cycle orchestration, proposed command/event contracts, durable jobs, transactional outbox, execution reconciliation and cost reservations. [Channel backends](managed-marketing-backend-expansion.md) reuse the existing application, policy gateway, evidence and provider boundaries. Components remain logical responsibilities, not a mandatory microservice deployment.

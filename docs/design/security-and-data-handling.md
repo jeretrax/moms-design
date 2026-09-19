@@ -21,3 +21,7 @@ Numeric rate/cost limits and crawl collection rules remain configurable decision
 ## Expansion data boundaries
 
 Apply isolation and retention to transcripts, expert profiles, unpublished content, media, prompts, quotes and proposal engagement data. Verify custom-domain/customer bindings and sharing scope server-side. Authenticate external callbacks and prevent replay. Branded presentation does not replace identity verification or justify hiding material limitations. See [portal](agency-portal-and-reporting.md), [proposals](proposals-and-onboarding.md) and D-014 through D-018.
+
+## Service operations security
+
+[Backend contracts](service-delivery-backend.md) extend isolation to events, cycle jobs, staff/vendor assignment, artifacts, costs and reporting projections. Restrict sensitive review cases, audience identifiers, messages, audio feedback and conversion data. Use credential references, authenticated callbacks, purpose-specific access and retention rules. Worker uploads/media processing require scanning and isolation. Backup/restore, recovery targets and deployment topology remain D-024; the design does not select a production platform.

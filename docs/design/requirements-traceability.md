@@ -40,3 +40,21 @@ Source: explicit user request and [reference review](../reference/adaptify-capab
 | R-025 | Proposals, acceptance and onboarding | [Proposals](proposals-and-onboarding.md) | PO-01 through PO-03 |
 
 Cross-capability acceptance: EX-01 through EX-03 in [expansion roadmap](agency-growth-expansion.md). Future EWPs must map these IDs to executable verification before release.
+
+## Managed-service backend request (2026-09-19)
+
+Source: explicit user request and [Search Berg review](../reference/searchberg-capability-review.md). Architecture is original MOMS design. Requirements are future capabilities, not implemented features or additions to EWP-001.
+
+| ID | Requirement | Canonical owner | Future verification |
+| --- | --- | --- | --- |
+| R-026 | Engagement/cycle execution and durable backend | [Delivery](service-delivery-backend.md) | SD-01 through SD-05 |
+| R-027 | Multichannel paid campaign operations | [Campaigns](multichannel-campaign-backend.md) | MC-01 through MC-04 |
+| R-028 | Social, community and influencer operations | [Social/email](social-email-and-community-backend.md) | SE-01, SE-03, SE-04 |
+| R-029 | Audience, consent and email campaign execution | [Social/email](social-email-and-community-backend.md) | SE-01, SE-02 |
+| R-030 | Local listings and reputation operations | [Local/reputation](local-presence-and-reputation-backend.md) | LR-01 through LR-03 |
+| R-031 | Web/deployment/maintenance engagements | [Web/commerce/creative](web-commerce-and-creative-backend.md) | WC-01 |
+| R-032 | Marketplace/catalog operation boundaries | [Web/commerce/creative](web-commerce-and-creative-backend.md) | WC-02 |
+| R-033 | Versioned creative assets and rights | [Web/commerce/creative](web-commerce-and-creative-backend.md) | WC-03 |
+| R-034 | Conversion definitions, CRM outcomes and attribution | [Measurement](measurement-and-crm-backend.md) | ME-01 through ME-03 |
+
+Cross-capability acceptance MB-01 through MB-03 is in the [backend expansion](managed-marketing-backend-expansion.md). A future implementation handback must map these criteria to evidence and resolved release gates.

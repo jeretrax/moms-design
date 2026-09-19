@@ -25,3 +25,7 @@ See [work item](marketing-work-item.md), [report contract](report-contract.md), 
 ## Expansion measurement distinctions
 
 Measure strategy coverage, content publication, observed index status, sampled AI mentions/citations, verified placements, proposal acceptance and business outcomes as different events. Publication and placement are deliverables, not proof of lead generation. Visibility comparisons require compatible sampling and disclose unknown observations; see [AI visibility](ai-search-visibility.md). A proposal forecast remains a versioned hypothesis after acceptance.
+
+## Cross-channel outcome lineage
+
+The [measurement/CRM backend](measurement-and-crm-backend.md) owns tracking definitions, deduplication, external outcome references and attribution snapshots. Activity reports enumerate verified work; results reports present compatible observations and limitations. Service completion, impressions, engagement, attributed conversions, qualified leads and collected revenue must not be treated as interchangeable outcomes.

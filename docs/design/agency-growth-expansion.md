@@ -28,3 +28,7 @@ EX-01: An observed gap links to an existing goal and work item; approved content
 EX-02: Prospect conversion reuses its assessed customer/property context and cannot bypass action controls.
 
 EX-03: No client can retrieve another client's content, credentials, prompts, reports or commercial documents through portfolio, custom-domain or sharing routes.
+
+## Further managed-service backend coverage
+
+The [Search Berg-informed backend expansion](managed-marketing-backend-expansion.md) adds R-026 through R-034 on top of these capabilities. Existing owner documents continue to own strategy, AI visibility, content, outreach, reporting and proposals.

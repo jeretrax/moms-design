@@ -25,3 +25,7 @@ A MOMS permission limit and a provider's actual billing behavior are different t
 A planning scenario may show `estimated clicks = proposed budget / estimated CPC` when CPC is positive and both values have compatible currency/time assumptions. Label it illustrative, not a guarantee of impressions, clicks, leads, or revenue. Lead estimates require an explicitly supported conversion-rate assumption and a range.
 
 Ads integration and writes are outside EWP-001. See [controls](autonomy-approvals-and-spend-controls.md), [benefit model](benefit-and-time-model.md), and [open decisions](design-notes.md).
+
+## Shared paid-channel backend
+
+Google Ads remains the initial paid integration. Later channels use the [campaign backend](multichannel-campaign-backend.md) and shared policy/action gateway. Google read/recommend and controlled-write gates remain intact; a normalized campaign summary cannot bypass Google-specific permissions or budget semantics.

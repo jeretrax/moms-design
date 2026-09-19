@@ -23,3 +23,7 @@ CP-03: A timed-out submission cannot create a duplicate page on retry; remote ed
 CP-04: Report publication only after readback; record unsupported operations as unavailable.
 
 See [controls](autonomy-approvals-and-spend-controls.md) and D-015 in [decisions](design-notes.md).
+
+## Service delivery and media extensions
+
+The [web/commerce/creative backend](web-commerce-and-creative-backend.md) adds specialist production, store/listing artifacts and controlled website releases. Reuse Content/Revision and approval history for media/channel variants. Source rights and rejected-review state propagate to downstream publication targets.

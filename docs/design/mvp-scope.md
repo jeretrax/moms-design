@@ -28,3 +28,7 @@ The [first EWP](../engineering/EWP-001-public-domain-assessment.md) owns the imp
 ## Post-assessment capability expansion
 
 See [agency growth expansion](agency-growth-expansion.md) for R-018 through R-025 and delivery dependencies. The original M1/M2/M3 sequence remains intact. New acceptance criteria belong to future bounded work packages, not EWP-001. Drafting, publishing, outreach, report delivery and commerce each have separate gates.
+
+## Backend expansion boundary
+
+[R-026 through R-034](managed-marketing-backend-expansion.md) add future managed-service backends. EWP-001 remains unchanged. Introduce shared orchestration and read adapters before separately gated channel writes. New owner-document acceptance criteria require future bounded EWPs; they are not a requirement to build every service before delivering M1.
