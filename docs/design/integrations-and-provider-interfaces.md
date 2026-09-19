@@ -24,3 +24,9 @@ Differentiate unauthorized, unavailable, rate-limited, invalid input, partial, a
 Secrets remain server-side and account scoped. Validate that a connection belongs to the current customer. Track authorized read/write capabilities independently. Revocation prevents future use. Availability of a provider feature is not implied by its presence in this table.
 
 Provider selection requires checking current official APIs, permissions, access eligibility, licensing, quotas and supported fields. This repository has not selected a provider or verified current API endpoints. See D-002 and D-011 in [design notes](design-notes.md).
+
+## Expansion adapters
+
+The [capability expansion](agency-growth-expansion.md) adds AI-answer collection, CMS, media provenance, outreach/email delivery, backlink observation, signature and payment adapters. Each declares supported operations, read/write authority, account/customer binding, quota, idempotency/reconciliation behavior and evidence availability. A named candidate integration is not a support claim.
+
+CMS and AI-platform coverage require current capability verification. Treat payment webhooks as untrusted until authenticated and deduplicated. Delivery adapters must enforce current recipient access and suppression policy. No adapter may turn a recommendation or commercial payment into write authority.

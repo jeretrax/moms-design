@@ -30,3 +30,7 @@ Advertising answers: what are we spending, what are we getting, where is money b
 Use plain business language. Separate observed facts from estimates. State unavailable sources and incomplete coverage. Do not represent a draft as published, an approved change as executed, traffic as revenue, or activation as proven business benefit. Internal model selection, prompts, and tools are not customer workflow requirements.
 
 See [report contract](report-contract.md), [work items](marketing-work-item.md), and [benefit model](benefit-and-time-model.md).
+
+## Expanded agency and customer journeys
+
+Add Strategy, AI Visibility, Content Calendar, Content Review, Authority Work and Proposals as applicable capabilities. Agency operators receive a customer portfolio with attention and delivery status; customer users see only their permitted business context. The [portal design](agency-portal-and-reporting.md) owns branding and delivery, while [proposals](proposals-and-onboarding.md) owns prospect-to-onboarding behavior. Exact navigation layouts remain proposals. Customers can start with business goals; advanced prompt/keyword controls are optional.

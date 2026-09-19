@@ -21,3 +21,7 @@ Compare compatible metrics, source definitions, geographies, currencies, and tim
 A later result may be improved, unchanged, worsened, or inconclusive as a proposed reporting vocabulary. Do not guarantee organic ranking/date outcomes or conflate impressions, clicks, conversions, qualified leads, and revenue.
 
 See [work item](marketing-work-item.md), [report contract](report-contract.md), and [Google Ads](google-ads-management.md).
+
+## Expansion measurement distinctions
+
+Measure strategy coverage, content publication, observed index status, sampled AI mentions/citations, verified placements, proposal acceptance and business outcomes as different events. Publication and placement are deliverables, not proof of lead generation. Visibility comparisons require compatible sampling and disclose unknown observations; see [AI visibility](ai-search-visibility.md). A proposal forecast remains a versioned hypothesis after acceptance.

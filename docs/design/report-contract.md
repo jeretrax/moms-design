@@ -23,6 +23,6 @@ Use the canonical saved work items and their revisions. Do not generate contradi
 
 Can a non-marketing customer tell what to do next, why, what it may cost, the expected benefit, and when measurement becomes useful? Can they distinguish observed facts from forecasts? Are missing or blocked sources and incomplete coverage visible? Does the report avoid ranking guarantees and unsupported conversion claims?
 
-The handoffs require a readable customer-facing report, not a specific file format. PDF export, branded layout and report-delivery notifications remain D-008. M1 must provide a readable persisted report representation; external delivery is not assumed.
+The handoffs require a readable customer-facing report, not a specific file format. Branded PDF export and report delivery are now later capability requirements in [agency reporting](agency-portal-and-reporting.md); specific templates, delivery/access policies and partial-result handling remain D-008/D-017. M1 must provide a readable persisted report representation; external delivery is not assumed.
 
 See [customer experience](customer-experience.md), [benefit model](benefit-and-time-model.md), and [EWP-001](../engineering/EWP-001-public-domain-assessment.md).

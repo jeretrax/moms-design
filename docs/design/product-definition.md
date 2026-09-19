@@ -29,3 +29,7 @@ Publication permissions are independent of drafting permission. Finding an oppor
 The first deliverable is a defensible marketing plan and saved baseline. This repository does not establish a complete CRM, social publishing system, website builder, autonomous outreach platform, billing system, or advertising agency contract.
 
 See [scope](mvp-scope.md), [customer experience](customer-experience.md), and [domain model](domain-model.md).
+
+## Expanded service capabilities (2026-09-19)
+
+The user-requested [agency growth expansion](agency-growth-expansion.md) adds maintained strategy, AI visibility research, content production, CMS delivery, authority outreach, agency operations, branded reports and proposal/onboarding capabilities. Their owner documents define requirements; phased delivery and action authorization remain explicit. This expands the future product boundary without changing M1.

@@ -23,3 +23,20 @@ Status: source-reconciled baseline. [Source register](../reference/handoffs/READ
 | R-017 | H1/H3/H5: first milestone | Assessment-only first EWP; no Ads writes | [mvp-scope](mvp-scope.md) | AC-01 through AC-11; AC-10 boundary |
 
 Implementation handback must record EWP, baseline design commit, implementation commit, acceptance evidence and outstanding issues. Proposed schemas and architecture are explicitly marked in their owner documents; the five source handoffs do not select a technology stack.
+
+## User-requested expansion (2026-09-19)
+
+Source: explicit user request and [reference review](../reference/adaptify-capability-review.md). These requirements are design additions; they are not implemented or part of EWP-001.
+
+| ID | Requirement | Canonical owner | Future verification |
+| --- | --- | --- | --- |
+| R-018 | Maintained topic/keyword strategy | [Strategy](keyword-and-topic-strategy.md) | KS-01 through KS-03 |
+| R-019 | Sampled AI-search visibility and gap work | [Visibility](ai-search-visibility.md) | AI-01 through AI-03 |
+| R-020 | Versioned content production and quality review | [Content](content-production-and-publishing.md) | CP-01, CP-02 |
+| R-021 | Authorized CMS publication and verification | [Publishing](content-production-and-publishing.md) | CP-02 through CP-04 |
+| R-022 | Legitimate outreach and placement monitoring | [Authority](authority-and-outreach.md) | AO-01 through AO-03 |
+| R-023 | Scoped agency portfolio and customer access | [Portal](agency-portal-and-reporting.md) | AR-01, AR-03 |
+| R-024 | Branded reports and scheduled deliveries | [Reporting](agency-portal-and-reporting.md) | AR-02, AR-03 |
+| R-025 | Proposals, acceptance and onboarding | [Proposals](proposals-and-onboarding.md) | PO-01 through PO-03 |
+
+Cross-capability acceptance: EX-01 through EX-03 in [expansion roadmap](agency-growth-expansion.md). Future EWPs must map these IDs to executable verification before release.

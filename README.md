@@ -17,3 +17,7 @@ The five supplied handoffs are reconciled here as the initial design baseline. T
 [jeretrax/moms-design](https://github.com/jeretrax/moms-design) is the canonical MOMS design repository. Maintain future approved design changes here through bounded Engineering Work Packages and the governance process below.
 
 See [governance](docs/design/design-to-implementation-governance.md), [open decisions](docs/design/design-notes.md), and [EWP-001](docs/engineering/EWP-001-public-domain-assessment.md).
+
+## Expanded marketing service design
+
+See [agency growth capabilities](docs/design/agency-growth-expansion.md) for the 2026-09-19 Adaptify-informed expansion and its delivery boundaries.

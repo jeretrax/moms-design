@@ -31,3 +31,7 @@ Record before/after state for Ads writes, approval identity, timestamps, target,
 Evaluate customer total ad budget, account policy, campaign limits, action types, and approval thresholds together. MOMS service fees, ad media spend, and internal API/model costs are separate amounts. Deny writes when the required budget/authority data is missing or stale under the selected policy. Provider enforcement semantics, budget periods, currencies, concurrency, external edits, and emergency pause behavior require D-010 before writes are enabled.
 
 No agent may redefine policy or grant itself permission. See [Ads](google-ads-management.md), [security](security-and-data-handling.md), and [design notes](design-notes.md).
+
+## Expanded action classes
+
+Scope grants separately for content drafting, CMS create/update/publish, outreach send, report delivery, proposal issuance and commercial activation. Apply customer/account/version-bound approvals and recheck before queued execution. Third-party content/placement purchases have separate spending policy from Google Ads budgets. Buying a subscription or accepting a proposal does not grant external write authority. See [expansion owners](agency-growth-expansion.md) for failure and verification requirements.

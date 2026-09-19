@@ -17,3 +17,7 @@ The handoffs do not establish tier names, prices, free trials, quotas, billing p
 An entitlement answers whether a capability is included. It does not authorize spending or publishing. Customer consent and integration/action permission still apply.
 
 Billing/checkout implementation is outside EWP-001. See D-004 in [design notes](design-notes.md) and [controls](autonomy-approvals-and-spend-controls.md).
+
+## Expansion entitlement dimensions
+
+Future commercial configuration may meter managed properties, strategy jobs, visibility samples, content production, CMS targets, outreach work and reporting deliveries. Record usage and costs against the applicable entitlement; limits and overage prices remain D-004. [Proposal acceptance](proposals-and-onboarding.md) can activate configured service entitlements only under approved commercial rules. Billing integration is now a later capability, still outside EWP-001.

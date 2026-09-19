@@ -22,3 +22,7 @@ The [master index](docs/design/master-design-index.md) covers every design docum
 - Missing data is unknown, not zero. Recommendations need evidence or an explicit hypothesis label.
 - Engineering may choose reversible implementation details within approved scope. Material product gaps require a recorded design decision.
 - Do not insert credentials, customer exports, or private operational data into this design repository.
+
+## Expanded marketing service design
+
+See [agency growth capabilities](docs/design/agency-growth-expansion.md) for the 2026-09-19 Adaptify-informed expansion and its delivery boundaries.

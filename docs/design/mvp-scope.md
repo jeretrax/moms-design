@@ -24,3 +24,7 @@ Create customer; capture domain, business description, ordinary-language goals, 
 Ads account integration, external mutation, campaign activation, autonomous publication, ongoing monitoring schedules, subscription checkout, a complete content-production system, social posting, and broad platform expansion. Future capabilities remain in approved product scope but need their own packages.
 
 The [first EWP](../engineering/EWP-001-public-domain-assessment.md) owns the implementation boundary and acceptance criteria. [Design notes](design-notes.md) list unresolved release and provider decisions.
+
+## Post-assessment capability expansion
+
+See [agency growth expansion](agency-growth-expansion.md) for R-018 through R-025 and delivery dependencies. The original M1/M2/M3 sequence remains intact. New acceptance criteria belong to future bounded work packages, not EWP-001. Drafting, publishing, outreach, report delivery and commerce each have separate gates.

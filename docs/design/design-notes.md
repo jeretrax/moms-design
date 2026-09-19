@@ -30,6 +30,20 @@ Status: unresolved items, not approved defaults. Product owner: Jeremiah; engine
 | D-012 | Website/domain ownership verification and consent requirements for public assessments versus connected properties | Before self-service production assessment/connection |
 | D-013 (resolved) | Confirm remote location/access and visibility for moms-design | Resolved 2026-09-19: user directed publication to `jeretrax/moms-design`; repository is public and connected account has push/admin access |
 
+## Capability expansion decision: 2026-09-19
+
+Jeremiah requested additional features comparable to Adaptify. [R-018 through R-025](agency-growth-expansion.md) are added to product scope based on the [public reference review](../reference/adaptify-capability-review.md). They extend the five-handoff baseline. M1 and EWP-001 remain unchanged; exact implementation and numerical policy choices are not approved by analogy to a vendor.
+
+D-008 is partially resolved: branded PDFs and recurring delivery are future requirements, while format specifics, access, cadence and partial-result policy remain open. D-004 now includes proposal/payment integration and expansion entitlements; no pricing is selected.
+
+| ID | Open decision | Gate |
+| --- | --- | --- |
+| D-014 | AI collection surfaces/providers, prompt sampling, score definitions, retest cadence and costs | Before production visibility claims |
+| D-015 | CMS rollout, editorial checks, brand policy, revision limits, author/media rules and publication approvals | Before content production/publishing release |
+| D-016 | Outreach sender/recipient policy, suppression, permitted placements, costs and corrective service terms | Before outbound outreach or purchased placement |
+| D-017 | Agency memberships, portal sharing/authentication, domain ownership, delivery recipients and schedules | Before customer portal/report delivery |
+| D-018 | Quote/catalog rules, signatures/payments, refunds, activation and consent for proposal analytics | Before commercial proposal execution |
+
 ## Resolved repository decision
 
 D-013 originally blocked remote publication. On 2026-09-19, Jeremiah directed the completed design into the now-accessible `jeretrax/moms-design` repository. Its existing public visibility is preserved. This resolves destination/access only; product, pricing, provider and production release decisions remain unchanged. The previous ZIP is a historical bootstrap snapshot, not the ongoing source of truth.

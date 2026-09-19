@@ -31,3 +31,7 @@ Future agent output proposes actions; it does not invoke unguarded provider muta
 Select runtime, database, queue/job design, hosting, account/membership model, source vendors, credential storage and operating limits through [design notes](design-notes.md). An isolated engineering prototype may use documented replaceable implementations, but it cannot declare unresolved production behavior approved.
 
 See [provider contracts](integrations-and-provider-interfaces.md), [agent model](agent-operating-model.md), [security](security-and-data-handling.md), and [EWP-001](../engineering/EWP-001-public-domain-assessment.md).
+
+## Expansion integration
+
+The [agency growth capabilities](agency-growth-expansion.md) extend existing services: strategy/visibility use research and measurement; content/proposals produce versioned artifacts; portfolio/reporting apply scoped views; CMS/outreach/delivery/commerce use declared adapters and the policy gateway. Reuse persistence, audit and job controls. Add event reconciliation for external callbacks and ambiguous execution outcomes; do not create parallel customer or approval stores.

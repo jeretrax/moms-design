@@ -27,3 +27,7 @@ Validate generated structure and evidence links before accepting output. Dedupe 
 OpenAI may be the initial reasoning provider. No model version belongs in the canonical business/domain model. Deterministic logic owns permissions, spend, approvals, isolation, entitlements, publication, audit, and rate limits.
 
 See [controls](autonomy-approvals-and-spend-controls.md), [architecture](system-architecture.md), and [provider interfaces](integrations-and-provider-interfaces.md).
+
+## Expanded responsibilities
+
+The existing roles also support the [expanded capabilities](agency-growth-expansion.md). Search Research and Measurement handle sampled answer visibility; Content Strategist prepares revisions; Presence and Authority prepares pitches; Marketing Planner coordinates strategy and calendar. Report/proposal drafts are bounded generation jobs over authorized records. External CMS, outreach, delivery and commercial actions run through deterministic application controls, not unguarded agent tools. No additional always-running agents are required.

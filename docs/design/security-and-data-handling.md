@@ -17,3 +17,7 @@ Audit consequential recommendations and actions with evidence, rationale, approv
 Retention, deletion, evidence capture limits, personal-data handling, residency, export, encryption/key-management design, backup policy and audit retention need explicit decisions before production. Public availability alone does not define an unlimited right to retain or republish source content.
 
 Numeric rate/cost limits and crawl collection rules remain configurable decisions, not invented defaults. See [controls](autonomy-approvals-and-spend-controls.md), [assessment](seo-site-assessment.md), and D-003/D-005 in [design notes](design-notes.md).
+
+## Expansion data boundaries
+
+Apply isolation and retention to transcripts, expert profiles, unpublished content, media, prompts, quotes and proposal engagement data. Verify custom-domain/customer bindings and sharing scope server-side. Authenticate external callbacks and prevent replay. Branded presentation does not replace identity verification or justify hiding material limitations. See [portal](agency-portal-and-reporting.md), [proposals](proposals-and-onboarding.md) and D-014 through D-018.

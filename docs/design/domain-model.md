@@ -46,3 +46,21 @@ This sketch illustrates references, not a final database schema or approved limi
 Enforce customer boundaries on records and links; an identifier alone is not access authority. Preserve the report's original evidence and recommendation versions. Later observations may update the plan without rewriting the historical baseline. Unknown estimates have explicit reasons, not artificial zeros. Provider/model IDs remain integration/job metadata rather than business entity types.
 
 Physical isolation, membership roles, retention, and deletion are open decisions. See [architecture](system-architecture.md), [security](security-and-data-handling.md), and [work item](marketing-work-item.md).
+
+## Expanded conceptual records
+
+These logical records support the [expansion](agency-growth-expansion.md); physical schema is still an implementation proposal.
+
+| Record | Links and ownership |
+| --- | --- |
+| Agency / Customer Membership | Authorized portfolio relationship; does not imply shared customer data access |
+| Strategy Revision / Topic Cluster | References existing goals, candidates and target Web Properties/pages |
+| Prompt Set / Visibility Observation | Versioned questions and sampled evidence using existing observation/measurement lineage |
+| Brand Profile / Content Item / Content Revision | Customer instructions and reviewed artifacts linked to work items |
+| Calendar Entry / Publication Target | Scheduled work and a scoped Integration Connection; Execution stores actual attempts |
+| Expert Profile / Outreach Campaign / Pitch / Placement | Customer-authorized identity, recipients and outcomes linked to work/evidence |
+| Branding Profile / Delivery Schedule / Delivery Record | Presentation and authorized distribution of canonical report revisions |
+| Proposal Revision / Quote / Acceptance | Immutable commercial scope referencing assessment and work items |
+| Onboarding Engagement / Payment Reference | Conversion and commercial status; reuse Customer, Property and Entitlement |
+
+Prospect conversion updates lifecycle context without copying assessments into a second database. New records inherit customer isolation and history requirements. Cross-customer learning may not reuse private facts or artifacts without explicit permission.
