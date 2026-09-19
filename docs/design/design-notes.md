@@ -1,0 +1,45 @@
+# Design Notes and Open Decisions
+
+Status: unresolved items, not approved defaults. Product owner: Jeremiah; engineering supplies options/evidence. Prepared 2026-09-18 from five supplied handoffs.
+
+## Reconciliation decisions grounded in sources
+
+- The three-function MVP is a roadmap; the first EWP remains public assessment only (H1/H3/H5).
+- Expected benefit and measurement plans belong in M1; ongoing actual-versus-forecast evaluation follows later (H3).
+- Google Ads read/recommend and controlled execution are retained as product design but excluded from EWP-001 (H3/H5).
+- Logical agent responsibilities do not require separate processes; customer workflows do not expose agent administration (H4).
+- Required assessment fields come from H3; broader business intake in H2 is retained without requiring keywords or connected accounts.
+- Work items are canonical recommendations referenced by reports; original handoffs remain unchanged reference material.
+- No unresolved commercial terms, numeric limits, stack, provider or production access policy has been promoted to an approved decision.
+
+## Decision register
+
+| ID | Unresolved decision | Gate / impact |
+| --- | --- | --- |
+| D-001 | Customer identity, login/provisioning, memberships, operator/customer roles, multi-business access and approval authority | Before production access or approvals; isolated development can proceed |
+| D-002 | Search/SERP and keyword/CPC providers, API access, licensing, geography support and cost | Before live M1 search acceptance; fixture-based adapter work can proceed |
+| D-003 | Crawl policy, pages/depth, robots handling, render strategy, timeouts, source/job/model budgets, retry/rate limits | Before live collection; no unlimited crawl or spend assumption |
+| D-004 | Subscription tiers, prices, entitlements, cadence, trial, billing, cancellation and human labor | Before commercial launch or billing work |
+| D-005 | Evidence/raw content retention, deletion, privacy, residency, security operations and audit retention | Before production customer data |
+| D-006 | Priority ordering policy, optional scoring, effort/cost/confidence scales | Before accepting production ranking behavior; rationale-based prototype is provisional |
+| D-007 | Work statuses, approval roles/transitions, expiry, standing authorization and revocation semantics | Before operational work execution; M1 recommendations need no external execution |
+| D-008 | Report format/branding/export, customer delivery, acceptable partial-result publication and review policy | Before final report UX acceptance and customer release |
+| D-009 | Metrics, attribution, useful sample/window thresholds and recurring measurement schedule | Before automated claims of measured effectiveness; M1 still records hypotheses |
+| D-010 | Budget periods/currencies, account/campaign ceiling semantics, external edits, provider lag, enforcement and emergency pause | Hard gate before any Ads writes |
+| D-011 | Runtime, hosting, persistence, orchestration, AI model configuration and credentials | Before deployable implementation; conceptual design is provider-neutral |
+| D-012 | Website/domain ownership verification and consent requirements for public assessments versus connected properties | Before self-service production assessment/connection |
+| D-013 (resolved) | Confirm remote location/access and visibility for moms-design | Resolved 2026-09-19: user directed publication to `jeretrax/moms-design`; repository is public and connected account has push/admin access |
+
+## Resolved repository decision
+
+D-013 originally blocked remote publication. On 2026-09-19, Jeremiah directed the completed design into the now-accessible `jeretrax/moms-design` repository. Its existing public visibility is preserved. This resolves destination/access only; product, pricing, provider and production release decisions remain unchanged. The previous ZIP is a historical bootstrap snapshot, not the ongoing source of truth.
+
+## Not imported
+
+No prices or feature promises from unrelated prototypes are part of this baseline. No exact Google API endpoint/version or current API capability is asserted. Engineering must verify current provider documentation at integration time.
+
+## Future decision entry
+
+For each resolution record decision ID, date, owner/approver, choice, rationale, affected requirement/document/EWP, and any migration or acceptance impact. Retain the original question and decision history.
+
+See [governance](design-to-implementation-governance.md) and [first EWP](../engineering/EWP-001-public-domain-assessment.md).
