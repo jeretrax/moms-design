@@ -55,3 +55,9 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 - [Search Berg service review](../reference/searchberg-capability-review.md)
 
 - [Brandwatch suite review](../reference/brandwatch-capability-review.md)
+
+## Sandy onboarding and online presence audit
+
+- [Sandy Step 1: Identity and Online Presence Discovery](sandy/getting-started-step-1.md)
+- [Sandy Step 2: Canonical Comprehensive Online Presence Audit](sandy/getting-started-step-2.md)
+- [Sandy Digital Risk Discovery and Category 17](sandy/digital-risk-category-17.md)
