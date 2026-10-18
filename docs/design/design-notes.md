@@ -84,3 +84,9 @@ Jeremiah requested new suite capabilities and reworking existing overlap. R-035 
 | D-029 | Creator discovery sources, identity evidence, rights policy, collaboration scope and payout-provider eligibility | Before creator production/payments; extends D-021 |
 
 Resolved ownership: shared observations, content calendar, engagement inbox, existing work engine, measurement definitions and report delivery. These are architectural responsibility decisions, not a selected technology stack or a live migration.
+
+## Sandy onboarding design decisions (2026-10-17)
+
+Jeremiah approved MOMS Design as Sandy's canonical design repository and confirmed the Step 1 identity discovery workflow, annotated referential multi-identity associations, human confirmation, manual scans and a configurable default seven-day interval. He designated Step 2's 17-category deep-dive checklist, including digital risk/dark web intelligence, as canonical functional scope. See [Sandy Step 1](sandy/getting-started-step-1.md), [Step 2](sandy/getting-started-step-2.md) and [Category 17](sandy/digital-risk-category-17.md). These are product design decisions, not production release or EWP-001 scope authorization.
+
+Open: ontology/physical schema alignment with ITOMS, scan provider contracts and licensing, sensitive-data retention, role-based confirmation permissions, risk escalation channels and crawl/resource budgets. Existing D-001, D-003, D-005, D-011 and D-012 remain applicable.
