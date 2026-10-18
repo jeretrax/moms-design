@@ -74,3 +74,14 @@ Source: user request, [review](../reference/brandwatch-capability-review.md), an
 | R-041 | Compatible competitive benchmarking | [Measurement](measurement-and-crm-backend.md) | BM-01 through BM-03 |
 
 R-018/R-020/R-021 retain shared calendar and asset behavior; R-030 retains local/reputation-specific policy while using R-038 for replies/cases. R-023/R-024 remain the only report delivery owners; R-034 remains measurement authority. Future EWPs must reference these mappings rather than create parallel implementations.
+
+## Sandy onboarding decisions (2026-10-17)
+
+User-confirmed functional design additions; no implementation or expansion of EWP-001 is claimed.
+
+| ID | Requirement | Owner | Future verification |
+| --- | --- | --- | --- |
+| R-041 | Identity intake, evidence-backed public discovery, human relationship confirmation and annotated referential associations | [Sandy Step 1](sandy/getting-started-step-1.md) | SDY-01: retain evidence, confirm/reassign associations and preserve history |
+| R-042 | Manual discovery and default seven-day configurable recurring discovery | [Sandy Step 1](sandy/getting-started-step-1.md) | SDY-02: run and compare observations, record coverage |
+| R-043 | Seventeen-category comprehensive audit with shared evaluation records and recommendations | [Sandy Step 2](sandy/getting-started-step-2.md) | SDY-03: applicable category coverage and report/work register |
+| R-044 | Digital risk discovery and deeper breach/dark-web intelligence checks with privacy and authorization boundaries | [Sandy Category 17](sandy/digital-risk-category-17.md) | SDY-04: preserve credibility and evidence, do not store stolen secrets |
