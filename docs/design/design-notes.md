@@ -90,3 +90,7 @@ Resolved ownership: shared observations, content calendar, engagement inbox, exi
 Jeremiah approved MOMS Design as Sandy's canonical design repository and confirmed the Step 1 identity discovery workflow, annotated referential multi-identity associations, human confirmation, manual scans and a configurable default seven-day interval. He designated Step 2's 17-category deep-dive checklist, including digital risk/dark web intelligence, as canonical functional scope. See [Sandy Step 1](sandy/getting-started-step-1.md), [Step 2](sandy/getting-started-step-2.md) and [Category 17](sandy/digital-risk-category-17.md). These are product design decisions, not production release or EWP-001 scope authorization.
 
 Open: ontology/physical schema alignment with ITOMS, scan provider contracts and licensing, sensitive-data retention, role-based confirmation permissions, risk escalation channels and crawl/resource budgets. Existing D-001, D-003, D-005, D-011 and D-012 remain applicable.
+
+## Sandy role decision (2026-10-23)
+
+Jeremiah approved saving [Sandy's job description](sandy/job-description.md) in MOMS. The role covers the full per-company responsibility inventory, applicability decisions, marketing-plan development, operating checklist and follow-through. All changes require authorized human approval. Autonomy and on-demand classification remain separate future decisions. R-045 records this addition; EWP-001 is unchanged. Existing feature owner documents remain authoritative for detailed workflows and implementation controls.
