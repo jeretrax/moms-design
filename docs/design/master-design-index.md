@@ -61,3 +61,5 @@ Start with [REPO_START_HERE](../../REPO_START_HERE.md). Each concept has one can
 - [Sandy Step 1: Identity and Online Presence Discovery](sandy/getting-started-step-1.md)
 - [Sandy Step 2: Canonical Comprehensive Online Presence Audit](sandy/getting-started-step-2.md)
 - [Sandy Digital Risk Discovery and Category 17](sandy/digital-risk-category-17.md)
+
+- [Sandy Job Description](sandy/job-description.md): full role, marketing-plan/checklist mapping and approval boundaries.
