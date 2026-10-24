@@ -85,3 +85,11 @@ User-confirmed functional design additions; no implementation or expansion of EW
 | R-042 | Manual discovery and default seven-day configurable recurring discovery | [Sandy Step 1](sandy/getting-started-step-1.md) | SDY-02: run and compare observations, record coverage |
 | R-043 | Seventeen-category comprehensive audit with shared evaluation records and recommendations | [Sandy Step 2](sandy/getting-started-step-2.md) | SDY-03: applicable category coverage and report/work register |
 | R-044 | Digital risk discovery and deeper breach/dark-web intelligence checks with privacy and authorization boundaries | [Sandy Category 17](sandy/digital-risk-category-17.md) | SDY-04: preserve credibility and evidence, do not store stolen secrets |
+
+## Sandy role description (2026-10-23)
+
+| ID | Requirement | Owner | Future verification |
+| --- | --- | --- | --- |
+| R-045 | Review full company responsibility scope; record applicability; map findings to marketing plan, owned checklist work and verified results; require human approval for changes | [Sandy job description](sandy/job-description.md) | SDY-05: inspect coverage, ownership, plan/checklist mapping and approval evidence; autonomy classification remains separate |
+
+Design documentation only; EWP-001 is unchanged.
